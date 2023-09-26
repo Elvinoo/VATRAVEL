@@ -1,0 +1,48 @@
+.filter {
+  margin-top: 4.37rem;
+  padding: 0 10rem;
+  margin-bottom: 3.125rem;
+}
+
+.filter ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px; /* Add padding for spacing */
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+.filter li.selected {
+  background-color: #e3e3e3; /* Set the background color of the selected li */
+  border-radius: 320px;
+}
+
+.filter .disc {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.filter li.selected .disc {
+  background-color: #ffe763;
+}
+.buttons-after-hover {
+  top: 126%;
+  left: 15%;
+}
+.buttons-before-hover {
+  top: 126%;
+}

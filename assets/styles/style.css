@@ -1,0 +1,361 @@
+body {
+  font-family: "space grotesk";
+  margin: 0;
+}
+body {
+  background-color: white;
+  font-family: "space grotesk";
+}
+button {
+  cursor: pointer;
+}
+.container {
+  padding: 0 6.25rem;
+}
+.toursPageMain {
+  width: 100%;
+}
+.header {
+  padding: 1.5625rem 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  width: 30.625rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.language-select option {
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0 0.625rem;
+}
+.language-select option {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border-radius: 0;
+  padding: 0.625rem;
+}
+.language-select {
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0 0.625rem;
+}
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+}
+.home-background {
+  width: 100%;
+}
+.main {
+  margin-bottom: 6.25rem;
+}
+
+.buttons-after-hover {
+  position: absolute;
+  top: 135%;
+  left: 10%;
+}
+.buttons-before-hover {
+  position: absolute;
+  top: 135%;
+  left: 40%;
+  width: 15.75rem;
+  height: 3.75rem;
+  left: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.buttons-before-hover button {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+}
+
+.menu-button {
+  width: 7.625rem;
+  background: rgba(244, 244, 244, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 14.875rem;
+}
+.home-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-button {
+  width: 7.625rem;
+  background: #ffe141;
+  border-radius: 13.125rem;
+  border: none;
+}
+.menu-hover {
+  box-sizing: border-box;
+  justify-content: space-between;
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 38px;
+  gap: 1.3rem;
+  background: rgba(244, 244, 244, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 120px;
+}
+.menu-hover a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.menu-hover li::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.menu-hover li:hover::before {
+  background-color: #ffe141;
+}
+.menu-hover li {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-after-hover {
+  display: flex;
+  height: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+}
+.buttons-after-hover button {
+  width: 7.625rem;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3.75rem;
+  padding: 0.625rem 1.25rem;
+}
+.tours-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6.25rem;
+}
+
+.tour-card {
+  width: 32%;
+  background-color: #fff;
+}
+
+.tour-card img {
+  width: 100%;
+}
+.tour-name {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.62rem;
+  line-height: 2.08rem;
+}
+.tour-desc-container {
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 0.81rem;
+}
+.tour-desc {
+  width: 100%;
+  font-size: 0.91rem;
+  line-height: 1.16rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+.tour-duration {
+  font-size: 0.71rem;
+  line-height: 0.91rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  padding: 10px 20px;
+  background: rgba(238, 238, 238, 0.5);
+  border-radius: 29px;
+  width: fit-content;
+  margin-bottom: 3.125rem;
+}
+.logos {
+  height: 12.81rem;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 3.125rem;
+}
+.logos > div {
+  width: 18.8rem;
+  height: 6.25rem;
+  background: #e9e9e9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-div {
+  padding: 0 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-div img {
+  cursor: pointer;
+}
+
+.project {
+  background-color: rgba(244, 218, 78, 1);
+  border-radius: 18px;
+  position: relative;
+  width: 24%;
+}
+.project h3 {
+  font-size: 1.37rem;
+  padding: 0.875rem 1.375rem;
+  height: 11.15rem;
+  line-height: 1.72rem;
+  text-align: center;
+}
+.diagonal-vector {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.37rem;
+}
+.contact {
+  background: rgba(236, 236, 236, 1);
+  border-radius: 1.125rem;
+  width: 47%;
+}
+.contact h3 {
+  padding: 14px 35px 0 20px;
+  font-weight: 500;
+  font-size: 1.37rem;
+  line-height: 2.43rem;
+  margin-bottom: 3.43rem;
+}
+
+.contact .inputs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 33px;
+}
+
+.contact .inputs input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: none;
+  width: 100%;
+  padding: 11px 0px;
+}
+.contact .inputs input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.43rem;
+}
+.contact .inputs input:focus {
+  outline: none; /* Remove the focus outline */
+}
+.contact .inputs .phone {
+  width: 48%;
+  position: relative;
+}
+.horizontal-vector {
+  position: absolute;
+  right: 0;
+  bottom: 0.625rem;
+}
+.contact .inputs .email {
+  width: 48%;
+}
+.address {
+  width: 24%;
+  background: #ececec;
+  border-radius: 18px;
+}
+
+.address .texts {
+  padding: 22px 19px 13px 24px;
+}
+.address .texts h3 {
+  line-height: 2rem;
+  font-size: 1.68rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+.address .texts p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.687rem;
+}
+footer {
+  margin-top: 50px;
+  background-color: black;
+  padding: 1.375rem 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.icons > a {
+  color: white;
+  text-decoration: none;
+}

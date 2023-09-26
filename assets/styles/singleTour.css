@@ -1,0 +1,40 @@
+.single-tour-images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-bottom: 68px;
+}
+.single-tour-images img {
+  flex: none;
+  border-radius: 1.5rem;
+  flex-grow: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 25px;
+}
+.tour-heading {
+  margin-bottom: 100px;
+}
+.day p {
+  display: none;
+}
+
+.day-title {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.day-title span {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.minus {
+  display: none;
+}
