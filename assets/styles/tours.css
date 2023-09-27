@@ -39,10 +39,3 @@
 .filter li.selected .disc {
   background-color: #ffe763;
 }
-.buttons-after-hover {
-  top: 126%;
-  left: 15%;
-}
-.buttons-before-hover {
-  top: 126%;
-}

@@ -1,11 +1,9 @@
 body {
+  background-color: white;
   font-family: "space grotesk";
   margin: 0;
 }
-body {
-  background-color: white;
-  font-family: "space grotesk";
-}
+
 button {
   cursor: pointer;
 }
@@ -79,17 +77,16 @@ button {
 }
 
 .buttons-after-hover {
-  position: absolute;
-  top: 135%;
+  position: fixed;
+  top: 50%;
   left: 10%;
 }
 .buttons-before-hover {
-  position: absolute;
-  top: 135%;
-  left: 40%;
   width: 15.75rem;
   height: 3.75rem;
+  position: fixed;
   left: 40%;
+  top: 50%;
   display: flex;
   justify-content: space-between;
   font-weight: 700;
